@@ -1,5 +1,5 @@
 ## 🧠  CSS Practice Questions
-- This repository contains **150 CSS practice questions** with answers. 
+- This repository contains **150 CSS coding practice questions** and **150 CSS theory practice questions** with answers. 
 - It's a personal learning log to help reinforce CSS fundamentals and build a strong foundation for frontend development.
 
 ## 📚 About
