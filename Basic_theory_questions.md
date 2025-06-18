@@ -1,6 +1,9 @@
 
 # Q1. What does CSS stand for?
-A: Cascading Style Sheets
+- Cascading Style Sheets.
+- It has been design by W3c.
+- Gives style to web pages.
+
 
 # Q2. What is the purpose of CSS?
 A: To style HTML elements, including layout, colors, fonts, etc.
@@ -148,3 +151,39 @@ A: Creates smooth animation from one style to another.
 
 Q50. How do you reset browser default styles?
 A: Use CSS reset or * { margin: 0; padding: 0; box-sizing: border-box; }
+
+# Q51. Versions of CSS?
+- CSS1
+- CSS2
+- CSS2.1
+- CSS3
+- CSS4(also available)
+
+# Q52. How to add CSS?
+- 3 ways
+- inline,internal,external
+
+# Q53. How to use CSS?
+- Style of several document in a single site.
+- Grouping methods available.
+
+# Q54. Disadvantages of CSS?
+- Asceding of selectors is not possible.
+- Limitation of vertical control.(2nd class value will be applicable,wrtting code 2 times will override top css).
+- Do not have expression.
+- No column declaration.
+- Pseduo-class not controles dynamic bahaviour.
+
+# Q55. Uses of ID and Class?
+- ID = Unique indentifiers,particular ID assign to a single element.
+- Class=  Style more than 1 element,No nned to be unique,Multiple classes can be added to a single elment.
+
+# Q56. Prominent CSS Frameworks?
+- Semanti UI
+- UI kit
+- Foundation
+- Bootstrap
+
+# Q57. 
+
+

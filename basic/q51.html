@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        body{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        button{
+             text-align: center;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            cursor: pointer;
+           
+            
+        }
+        div{
+            border: 1px solid;
+            border-radius: 8px;
+            text-align: center;
+            margin: 0 auto;
+            background-color: lightgrey;
+            width: 12.5rem;
+            padding: 10px;
+            visibility: visible;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+    </head>
+    <body>
+        <h1 style="color: red; text-align: center">
+            Q). Visibility show , hidden.
+        </h1>
+        <button onclick="hideshow()">Show Hide</button>
+        <br><br>
+        <div id="myDiv">
+            this is the content show or hide as per button click
+        </div>
+        <p>The above content will show or hide</p>
+        <script>
+            function hideshow(){
+               if(document.getElementById("myDiv").style.visibility=="visible"){
+                document.getElementById("myDiv").style.visibility="hidden"
+               }
+               else{
+                document.getElementById("myDiv").style.visibility="visible";
+               }
+            }
+        </script>
+    </body>
+</html>
