@@ -2,14 +2,19 @@
 # Q1. What does CSS stand for?
 - Cascading Style Sheets.
 - It has been design by W3c.
-- Gives style to web pages.
+- Gives style to web page( HTML document).
+- Presentation of a document.
+- Describes how HTML elements should be displayed.
 
 
 # Q2. What is the purpose of CSS?
-A: To style HTML elements, including layout, colors, fonts, etc.
+- To style HTML elements,
+- Add layout, colors, fonts etc to a webpage.
 
 # Q3. What are the three types of CSS?
-A: Inline, Internal, and External CSS
+- Inline CSS:Add style inside the element
+- Internal CSS: Add styling inside <head>
+- External CSS: Add styling in a separate file
 
 # Q4. How to link an external CSS file in HTML?
 A: <link rel="stylesheet" href="style.css">
