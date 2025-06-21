@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: grid;
+             grid-template-columns: 1fr 1fr 1fr; 
+             gap: 10px;
+        }
+        .column{
+           
+            padding: 15px;
+            border: 1px solid transparent;
+            background-color: lightblue;
+           
+        }
+    </style>
+</head>
+<body>
+     <h1 style="color: red; text-align: center">
+            Q). Build a 2-column layout using CSS Grid.
+    </h1>
+    <div class="container">
+        <div class="column">Column1</div>
+         <div class="column">Column2</div>
+         <div class="column">Column3</div>
+    </div>
+</body>
+</html>

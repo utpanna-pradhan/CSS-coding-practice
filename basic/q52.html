@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        .div1{
+            height: 100px;
+            border: 1px solid black;
+           
+            width: 300px;
+            padding: 15px;
+            margin: 30px;
+
+        }
+        .outer{
+             background-color: rgb(68, 187, 226);
+        }
+        .box{
+            background-color: rgb(194, 194, 31);
+            transform: rotate(30deg);
+            transform-origin: 70% 20%;
+        }
+         .outer1{
+             background-color: rgb(139, 50, 190);
+        }
+        .box1{
+            background-color: rgb(143, 26, 118);
+            transform: rotate3d(3,2,1,45deg);
+            transform-origin: 70% 10% 100px;
+        }
+         .outer2{
+             background-color: rgb(185, 48, 48);
+        }
+        .box2{
+            background-color: rgb(206, 193, 203);
+            transform: rotate3d(3,2,1,45deg);
+            transform-origin: bottom right 200px;
+        }
+    </style>
+    </head>
+    <body>
+        <h1 style="color: red; text-align: center">
+            Q).Transformation
+        </h1>
+        <div class="div1 outer">
+            Transform-origin:5% 2%
+            <div class="div1 box"></div>
+        </div>
+        <br><br><br>
+        <div class="div1 outer1">
+            Transform-origin:100px 200px
+            <div class="div1 box1"></div>
+        </div>
+
+        <br><br><br>
+        <div class="div1 outer2">
+            Transform-origin:100px 200px
+            <div class="div1 box2"></div>
+        </div>
+
+    </body>
+</html>
