@@ -70,91 +70,91 @@ A: background-image: url('image.jpg');
 # Q21. What is the difference between padding and margin?
 A: Padding is inside the element’s border; margin is outside it.
 
-Q22. How do you hide an element in CSS?
+# Q22. How do you hide an element in CSS?
 A: Use display: none; or visibility: hidden;
 
-Q23. What does color do in CSS?
+# Q23. What does color do in CSS?
 A: Sets the color of the text.
 
-Q24. What is the use of height and width in CSS?
+# Q24. What is the use of height and width in CSS?
 A: Sets the dimensions of an element.
 
-Q25. What is a descendant selector in CSS?
+# Q25. What is a descendant selector in CSS?
 A: A selector that selects elements inside another, e.g., div p
 
-Q26. What is a child selector in CSS?
+# Q26. What is a child selector in CSS?
 A: Selects direct children: div > p
 
-Q27. What is the difference between inline and block elements?
+# Q27. What is the difference between inline and block elements?
 A: inline does not allow width/height; block takes full width.
 
-Q28. How to make a div take the full width of the screen?
+# Q28. How to make a div take the full width of the screen?
 A: width: 100%;
 
-Q29. What is the purpose of z-index?
+# Q29. What is the purpose of z-index?
 A: To control stacking order of overlapping elements.
 
-Q30. What is position: relative?
+# Q30. What is position: relative?
 A: Positions the element relative to its normal position.
 
-Q31. What is position: absolute?
+# Q31. What is position: absolute?
 A: Positions the element relative to its nearest positioned ancestor.
 
-Q32. What is the difference between position: fixed and sticky?
+# Q32. What is the difference between position: fixed and sticky?
 A: fixed stays in place on scroll; sticky scrolls until a threshold.
 
-Q33. What is the use of overflow in CSS?
+# Q33. What is the use of overflow in CSS?
 A: Controls how content is handled when it exceeds the element box.
 
-Q34. What is the purpose of max-width and min-width?
+# Q34. What is the purpose of max-width and min-width?
 A: Set the maximum and minimum width limits of an element.
 
-Q35. How do you apply a font from Google Fonts?
+# Q35. How do you apply a font from Google Fonts?
 A: Import it with <link> tag and use in font-family.
 
-Q36. What is line-height used for?
+# Q36. What is line-height used for?
 A: To set the space between lines of text.
 
-Q37. How do you change the cursor on hover?
+# Q37. How do you change the cursor on hover?
 A: cursor: pointer;
 
-Q38. What’s the use of border-radius?
+# Q38. What’s the use of border-radius?
 A: Rounds the corners of elements.
 
-Q39. How do you make a circle in CSS?
+# Q39. How do you make a circle in CSS?
 A: Use equal width and height, and border-radius: 50%
 
-Q40. What does opacity do in CSS?
+# Q40. What does opacity do in CSS?
 A: Sets the transparency level of an element.
 
-Q41. How do you apply CSS to only one specific element?
+# Q41. How do you apply CSS to only one specific element?
 A: Use its id: #elementId {}
 
-Q42. How do you select the last item in a list?
+# Q42. How do you select the last item in a list?
 A: li:last-child
 
-Q43. What’s the difference between :first-child and :nth-child(1)?
+# Q43. What’s the difference between :first-child and :nth-child(1)?
 A: Both target the first child, but :nth-child() is more flexible.
 
-Q44. What is inherit in CSS?
+# Q44. What is inherit in CSS?
 A: Forces a property to inherit from its parent.
 
-Q45. What is initial in CSS?
+# Q45. What is initial in CSS?
 A: Resets the property to its default value.
 
-Q46. What is the difference between em and rem?
+# Q46. What is the difference between em and rem?
 A: em is relative to the parent, rem is relative to the root.
 
-Q47. What is the purpose of !important in CSS?
+# Q47. What is the purpose of !important in CSS?
 A: Forces a style to override others.
 
-Q48. What is the use of calc() function?
+# Q48. What is the use of calc() function?
 A: Allows mathematical calculations in CSS values.
 
-Q49. What is a transition in CSS?
+# Q49. What is a transition in CSS?
 A: Creates smooth animation from one style to another.
 
-Q50. How do you reset browser default styles?
+# Q50. How do you reset browser default styles?
 A: Use CSS reset or * { margin: 0; padding: 0; box-sizing: border-box; }
 
 # Q51. Versions of CSS?
@@ -189,6 +189,6 @@ A: Use CSS reset or * { margin: 0; padding: 0; box-sizing: border-box; }
 - Foundation
 - Bootstrap
 
-# Q57. 
+
 
 
