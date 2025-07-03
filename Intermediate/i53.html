@@ -4,6 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #000;
+        }
+        svg path{
+            stroke: white;
+            stroke-width: 10px;
+            fill: none;
+        }
+    </style>
 </head>
 <body>
     <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="300.000000pt" height="449.000000pt" viewBox="0 0 300.000000 449.000000" preserveAspectRatio="xMidYMid meet">
@@ -247,5 +267,19 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011
 <path d="M2518 26 c-25 -19 -22 -26 10 -26 34 0 57 14 48 29 -9 15 -37 13 -58 -3z"/>
 </g>
 </svg>
+<script>
+    const allpath = document.querySelectorAll('path');
+    allpath.forEach((path) => {
+      const length = path.getTotalLength();
+      path.style.strokeDasharray = length;
+      path.style.strokeDashoffset = length;
+      path.style.transition = "stroke-dashoffset 3s ease-in-out";
+      
+      // trigger reflow before applying the change
+      void path.getBoundingClientRect();
+      path.style.strokeDashoffset = 0;
+    });
+
+</script>
 </body>
 </html>
