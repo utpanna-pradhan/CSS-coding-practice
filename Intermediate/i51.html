@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+        * {
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+        }
+        .icon-bar{
+            width: 100%;
+            background-color: rgb(73, 73, 73);
+            overflow: auto;
+        }
+        .icon-bar a{
+            text-align: center;
+            width: 16.66%;
+             padding: 12px 0;
+            transition: all 0.3s ease;
+            color: white;
+            font-size: 36px;
+             float: left;
+        }
+          .icon-bar a:hover{
+            background-color: black;
+          }
+     
+        .active{
+            background-color: rgb(5, 112, 98);
+        }
+
+
+          .icon-bar2{
+            width: 10%;
+            background-color: rgb(73, 73, 73);
+           
+        }
+        .icon-bar2 a{
+          
+            display: block;
+            text-align: center;
+            padding: 16px;
+            text-align: center;
+            
+            
+            transition: all 0.3s ease;
+            color: white;
+            font-size: 36px;
+             
+        }
+             .icon-bar2 a:hover{
+                background-color: black;
+             }
+    </style>
+    </head>
+    <body>
+        <h1 style="color: red; text-align: center">
+            Q). How To Create an Icon Bar
+        </h1>
+        <h2>Horizontal bar</h2>
+        <div class="icon-bar">
+            <a href="#" class="active"><i class="fa-solid fa-house"></i></a>
+            <a href="#"> <i class="fa-solid fa-envelope"></i> </a>
+            <a href="#"> <i class="fa-solid fa-magnifying-glass"></i> </a>
+            <a href="#"> <i class="fa-solid fa-paragraph"></i></a>
+            <a href="#"> <i class="fa-solid fa-download"></i></a>
+            <a href="#"><i class="fa-solid fa-trash"></i> </a>
+        </div>
+
+        <br><br>
+        <h2>Vertical bar</h2>
+        <div class="icon-bar2">
+            <a href="#" class="active"><i class="fa-solid fa-house"></i></a>
+            <a href="#"> <i class="fa-solid fa-envelope"></i> </a>
+            <a href="#"> <i class="fa-solid fa-magnifying-glass"></i> </a>
+            <a href="#"> <i class="fa-solid fa-paragraph"></i></a>
+            <a href="#"> <i class="fa-solid fa-download"></i></a>
+            <a href="#"><i class="fa-solid fa-trash"></i> </a>
+        </div>
+    </body>
+</html>

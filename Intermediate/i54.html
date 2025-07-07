@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        .div1{
+            width: 35px;
+            height: 4px;
+            background-color: black;
+            margin: 8px 0px;
+           
+        }
+        .menu_icon2{
+            cursor: pointer;
+          
+        }
+        
+        .bar1,.bar2,.bar3{
+              width: 35px;
+            height: 4px;
+            background-color: black;
+            margin: 8px 0px;
+              transition: 0.4s;
+            
+        }
+        .change .bar1{
+            transform: translate(0,11px) rotate(-45deg);
+        }
+        .change .bar2{
+            opacity: 0;
+        }
+        .change .bar3{
+            transform: translate(0,-11px) rotate(45deg) ;
+        }
+    </style>
+    </head>
+    <body>
+        <h1 style="color: red; text-align: center">
+            Q). How To Create a Menu Icon
+        </h1>
+        <h2>Simple menu icon</h2>
+        <div class="div1"></div>
+        <div class="div1"></div>
+        <div class="div1"></div>
+        <h2>Animated menu icon</h2>
+        <div class="menu_icon2" onclick="myfunct(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <script>
+            function myfunct(x){
+                x.classList.toggle("change")
+            }
+        </script>
+    </body>
+</html>
