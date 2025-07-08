@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        * {
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+        }
+        .accordion{
+            width: 100vw;
+            border: none;
+            outline: none;
+            text-align: start;
+            padding: 15px 20px;
+            transition: 0.4s;
+            font-size: 1rem;
+            color: rgb(24, 23, 23);
+            cursor: pointer;
+            background-color: rgb(236, 236, 236);
+        }
+        .active , .accordion:hover{
+            background-color: rgb(212, 212, 212);
+        }
+        .panel{
+            padding: 0px 25px;
+            background-color: white;
+            max-height: 0;
+            transition: max-height 0.2s ease-out;
+            overflow: hidden;
+        }
+    </style>
+    </head>
+    <body>
+        <h1 style="color: red; text-align: center">Animatted Accordion</h1>
+        <button class="accordion">Section1</button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio rerum nesciunt officiis, iure praesentium officia
+                vitae itaque fugiat totam ea inventore possimus, laborum enim,
+                unde impedit error obcaecati repellat eligendi.</p>
+        </div>
+
+        <button class="accordion">Section1</button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio rerum nesciunt officiis, iure praesentium officia
+                vitae itaque fugiat totam ea inventore possimus, laborum enim,
+                unde impedit error obcaecati repellat eligendi.</p>
+        </div>
+
+        <button class="accordion">Section1</button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio rerum nesciunt officiis, iure praesentium officia
+                vitae itaque fugiat totam ea inventore possimus, laborum enim,
+                unde impedit error obcaecati repellat eligendi.</p>
+        </div>
+
+        <script>
+        var acc=document.getElementsByClassName("accordion");
+        var i;
+        for(i=0;i<acc.length;i++){
+            acc[i].addEventListener("click",function(){
+                this.classList.toggle("active");
+                var panel=this.nextElementSibling;
+                if(panel.style.maxHeight){
+                    panel.style.maxHeight=null;
+                }
+                else
+                {
+                    panel.style.maxHeight= panel.scrollHeight + "px";
+                }
+            })
+        }
+     </script>
+</body>
+</html>
